@@ -50,7 +50,6 @@ public class WishlistServiceImpl implements WishListService {
 
         List<Product> productList = wishlistEntity.getProducts().stream()
                 .map(wishlistProduct -> {
-                    // Assuming you have a method to convert WishlistProduct to Product
                     Product product = productRepository.findById(wishlistProduct.getProductId())
                             .orElseThrow(() -> new ProductNotFoundException("Product not found"));
                     return product;
