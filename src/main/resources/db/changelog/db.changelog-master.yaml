@@ -1,0 +1,5 @@
+databaseChangeLog:
+  - include:
+      file: classpath:db/changelog/changeset_1_create_product_table.yaml
+  - include:
+      file: classpath:db/changelog/changeset_2_insert_initial_data.yaml
