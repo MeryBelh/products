@@ -23,10 +23,10 @@ This is a Spring Boot 3 application that manages products and user authenticatio
    cd <project_directory>
 Build and Run the application: Run the following commands to build and start the application using Docker Compose:
 
-bash
-Copier le code
-mvn clean package
-docker-compose up --build
+```bash
+   mvn clean package
+   docker-compose up --build
+
 Access the API: Once the application is running, you can access the Swagger UI to explore the API:
 
 Open your browser and navigate to:
