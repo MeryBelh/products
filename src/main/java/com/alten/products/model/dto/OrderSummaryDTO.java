@@ -10,7 +10,8 @@ import java.util.List;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class WishlistSummaryDTO {
+public class OrderSummaryDTO {
     private Long id;
     private List<Product> products;
+    private String status;
 }
